@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document</title></head><body><script>var arr = [
+            {
+                id:1,
+                img:"../images/hot/01.jpg",
+                title:"笔记本电脑"
+            },
+            {
+                id:2,
+                img:"../images/banner1.jpg",
+                title:"笔记本电脑"
+            },
+            {
+                id:3,
+                img:"../images/banner1.jpg",
+                title:"笔记本电脑"
+            },
+        ]
+        var str = JSON.stringify(arr);
+        document.write(str);
+
+
+$(function(){
+$.ajax({
+  type: 'get',
+  url: "nav.json",
+  success: function(arr){
+    let str = ``;
+    for(var i = 0; i < arr.length; i++){
+      str += ` <li class="goods_item">
+        <div class="goods_pic">
+            <img src="${arr[i].img}" alt="">
+        </div>
+        <div class="goods_title">
+            <p>【京东超市】奥利奥软点小草莓0</p>
+        </div>
+        <div class="sc">
+            <div id="${arr[i].id}" class="sc_btn">加入购物车</div>
+        </div>
+    </li>`
+    }
+    $(".goods_box ul").html(str);
+  },
+  error: function(msg){
+    console.log(msg);
+  }
+})</script></body></html>

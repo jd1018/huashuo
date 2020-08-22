@@ -1,0 +1,107 @@
+{
+  "id": "2017193",
+  "name": "huashuo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17759",
+      "name": "退换货",
+      "font_class": "tuihuanhuo",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "702707",
+      "name": "保险",
+      "font_class": "baoxian",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "2632502",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3794348",
+      "name": "优惠券",
+      "font_class": "youhuiquan",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "3879798",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3981429",
+      "name": "消息提示",
+      "font_class": "xiaoxitishi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4361196",
+      "name": "标签",
+      "font_class": "biaoqian-",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "5369390",
+      "name": "耳机",
+      "font_class": "xingzhuang",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "5946250",
+      "name": "大于号",
+      "font_class": "dayuhao",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11360840",
+      "name": "App Instance",
+      "font_class": "Application",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "12145883",
+      "name": "支付",
+      "font_class": "zhifu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "14007783",
+      "name": "首页-选中",
+      "font_class": "home",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "15307742",
+      "name": "回顶部",
+      "font_class": "huidingbu",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "16564918",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}
